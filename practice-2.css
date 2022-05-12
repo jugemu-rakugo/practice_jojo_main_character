@@ -1,0 +1,223 @@
+/*
+「*」はすべての要素にスタイルを適用する全称セレクタです。
+「*」を単体で利用すると、すべての要素に適用されます。
+*/
+
+/*
+ヘッダーとメインの隙間をなくすために入力した
+*/
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.header {
+    background-color:rgb(248, 237, 224);
+    height:130px;
+
+}
+
+.header h3 {
+    color:blueviolet;
+    font-size:80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+
+
+}
+
+.contents {
+
+    float:left;
+    margin-right:50px;
+
+
+}
+
+.character {
+
+    /*親要素の高さ0を解決するためらしい*/
+    
+    overflow: hidden;
+}
+
+.stand {
+
+    /*親要素の高さ0を解決するためらしい*/
+
+    overflow:hidden;
+
+}
+
+.arrow {
+
+    /*親要素の高さ0を解決するためらしい*/
+    
+    overflow: hidden;
+}
+
+
+
+
+h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:50px;
+    color:rgb(87, 81, 81);
+
+
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:50px;
+    color:rgb(237, 185, 87);
+    border-bottom:5px solid rgb(129, 200, 129);
+
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:50px;
+    color:rgb(87, 81, 81);
+
+
+}
+
+.character p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+
+
+
+}
+
+.character a {
+    color:black;
+
+}
+
+.stand a {
+    color:black;
+}
+
+
+
+.stand p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arrow p {
+
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.arrow a {
+    color:black;
+    
+}
+
+.progress h3 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:50px;
+    color: black;
+
+
+}
+
+.main {
+    height:2700x;
+    background-color: rgb(238, 245, 238);
+}
+
+span {
+    color:rgb(241, 82, 82);
+
+}
+
+
+
+.stand-link a {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(65, 65, 171);
+    padding:50px;
+
+}
+
+.part {
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.footer {
+    background-color: rgb(235, 200, 200);
+    height:200px;
+    padding:40px;
+    color:white;
+}
+
+.footer-logo {
+    float:left;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-list {
+    float:right;
+}
+
+.footer-list li {
+    list-style: none;
+    padding-bottom:20px;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-title {
+    border-bottom:5px solid rgb(129, 200, 129);
+    font-size:35px;
+    padding-bottom:15px;
+    margin-bottom:50px;
+
+}
+
+.contact-form {
+    padding-top:100px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input,textarea {
+    width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color:#a2d4ef;
+    color:black;
+}
+
+.footer a {
+    
+    color:white;
+    
+}
